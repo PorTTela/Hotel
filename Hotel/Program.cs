@@ -26,11 +26,11 @@ namespace Hotel
 
             Console.WriteLine();
             Console.WriteLine("Relátorio de Quartos Alugados:");
-            for (int i=0; i<10; i++)
+            for (int i = 0; i < 10; i++)
             {
-                if(vect[i] != null)
+                if (vect[i] != null)
                 {
-                    Console.WriteLine(i + ": " + vect[i].Nome + ", " + vect[i].Email);
+                    Console.WriteLine("Quarto " + i + ": " + vect[i].Nome + ", " + vect[i].Email);
                 }
             }
 
