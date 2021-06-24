@@ -9,6 +9,7 @@ namespace Hotel
 
             Hospedes[] vect = new Hospedes[10];
 
+            Console.WriteLine(" --- HOTEL PARA ALUNOS --- ")
             Console.Write("Quantos alunos são?");
             int alunos = int.Parse(Console.ReadLine());
 
